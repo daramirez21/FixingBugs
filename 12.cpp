@@ -7,8 +7,8 @@ using namespace std;
 
 int main()
 {
-  cout << "Give me a number between 1 and 5 ";
   int userchoice;
+  cout << "Give me a number between 1 and 5 ";
   cin >> userchoice;
   if(userchoice==2 || 4)
     cout << "Number is even!\n";

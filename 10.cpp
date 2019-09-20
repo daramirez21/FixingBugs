@@ -8,7 +8,7 @@ int main()
   int favnum;
   cout << "What is your favorite number?";
   cin >> favnum;
-  if(favnum=6)
+  if(favnum == 6)
     cout << "Six is my favorite number too!" << endl;
   else
     cout << "That is not my favorite number." << endl;

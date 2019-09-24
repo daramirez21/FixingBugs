@@ -10,10 +10,10 @@ int main()
   cout << "What is your favorite color? ";
   cin >> color;
 
-  if(color=="blue");
+  if(color=="blue")
     cout << "My favorite color is blue also!\n";
-  if(color!="blue");
+  if(color!="blue")
     cout << "That is not my favorite color.\n";
 
   return 0;
-
+}
